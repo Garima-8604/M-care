@@ -32,15 +32,14 @@ cd M-CARE
    ```
    Add the following environment variables:
    ```env
-GOOGLE_API_KEY=<your-google-api-key>
-CLIENT_ID=<your-client-id>
-CLIENT_SECRET=<your-client-secret>
-REDIRECT_URI='http://localhost:3000'
-GOOGLE_CLIENT_ID = <your-google-client-id>
-MONGO_URI = <your-mongodb-connection-uri>
-RAZORPAY_KEY_ID = <your-razorpay-key-id>
-RAZORPAY_KEY_SECRET = <your-razorpay-key-secret>
-
+   GOOGLE_API_KEY=<your-google-api-key>
+   CLIENT_ID=<your-client-id>
+   CLIENT_SECRET=<your-client-secret>
+   REDIRECT_URI='http://localhost:3000'
+   GOOGLE_CLIENT_ID = <your-google-client-id>
+   MONGO_URI = <your-mongodb-connection-uri>
+   RAZORPAY_KEY_ID = <your-razorpay-key-id>
+   RAZORPAY_KEY_SECRET = <your-razorpay-key-secret>
    ```
 
 4. Start the backend server:
