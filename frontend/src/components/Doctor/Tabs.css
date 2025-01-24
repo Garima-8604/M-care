@@ -1,0 +1,38 @@
+.tabs-container {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+.doctor-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: #333;
+  margin: 0 10px;
+}
+
+.tab.active {
+  color: #de1851;
+  border-color: #de1851;
+}
+
+.tab:hover {
+  color: #d4476f;
+}
+
+
+
+.tab-content {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 5px;
+}

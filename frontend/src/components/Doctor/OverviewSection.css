@@ -1,0 +1,34 @@
+.overview-section {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .overview-left,
+  .overview-right {
+    flex: 1;
+  }
+  
+  .overview-left h3,
+  .overview-right h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .overview-left p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .fees-section,
+  .address-section {
+    margin-bottom: 20px;
+  }
+  
+  .fees-section p,
+  .address-section p {
+    font-size: 14px;
+    color: #333;
+  }
+  

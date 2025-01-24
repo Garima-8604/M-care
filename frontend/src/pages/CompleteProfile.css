@@ -1,0 +1,91 @@
+/* Global styling for the container */
+.complete-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeef2;
+    font-family: "Arial", sans-serif;
+    margin: 0;
+  }
+  
+  /* Profile Box */
+  .complete-profile-box {
+    background: white;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Profile Header */
+  .complete-profile-header {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form Elements */
+  .complete-profile-form {
+    margin-top: 10px;
+  }
+  
+  .complete-profile-label {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .complete-profile-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+  }
+  
+  .complete-profile-input:focus {
+    outline: none;
+    border-color: #d81b60;
+    box-shadow: 0px 0px 4px #d81b60;
+  }
+  
+  /* Buttons */
+  .complete-profile-button,
+  .skip-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .complete-profile-button:hover,
+  .skip-button:hover {
+    background-color: #d81b60;
+  }
+  
+  /* Skip Button Styling */
+  .skip-button {
+    background-color: #ccc;
+  }
+  
+  .skip-button:hover {
+    background-color: #bbb;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+  

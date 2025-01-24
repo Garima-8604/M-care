@@ -1,0 +1,52 @@
+
+/* Vision and Mission Section */
+.visionMissionSection {
+  display: flex;
+  flex-direction: column; /* Stack vertically for the introduction line */
+  align-items: center;
+  padding: 3rem 2rem;
+  gap: 2rem;
+  background-color: #F6F8FC;
+}
+
+.introductionLine {
+  font-size: 2rem;
+  color: #DE1B51; /* Change text color to match the box boundary's pink color */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center; /* Center the text */
+}
+
+/* Flex container for vision and mission boxes */
+.visionMissionBoxes {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  width: 100%; /* Ensure the section takes up full width */
+}
+
+.visionBox, .missionBox {
+  flex: 1;
+  padding: 2rem;
+  border: 2px solid #DE1B51; /* Pink border */
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  width: 45%; /* Ensure the boxes take up 45% of the space side by side */
+}
+
+.visionBox h2, .missionBox h2 {
+  font-size: 1.8rem;
+  color: #333;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.visionBox p, .missionBox p {
+  font-size: 1rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}

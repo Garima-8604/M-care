@@ -1,0 +1,81 @@
+.hero-section {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  text-align: center;
+  background-color: #DE1B51;
+  padding: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  color: white;
+  flex-wrap: wrap;
+}
+
+
+.hero-left {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.hero-center {
+  text-align: center;
+}
+
+.fetus-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fetus-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.fetus-details {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+
+.hero-center {
+  text-align: center;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+  padding-left: 25%;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.circle-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-left, .hero-right {
+    align-items: center;
+  }
+
+  .hero-center {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,99 @@
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.footerTop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the left */
+}
+
+.logoSection {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logoSection img {
+  width: 50px;
+  height: 50px;
+}
+
+.logoSection h2 {
+  font-size: 2rem;
+  color: #ff6b6b;
+  margin-left: 1rem; /* Space between logo and text */
+}
+
+.footerColumns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.footerLeft, .footerMiddle, .footerRight {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footerLeft ul, .footerMiddle ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footerLeft li, .footerMiddle li {
+  margin-bottom: 0.5rem;
+}
+
+.footerLeft a, .footerMiddle a {
+  color: #ff6b6b;
+  text-decoration: none;
+}
+
+.footerLeft a:hover, .footerMiddle a:hover {
+  text-decoration: underline;
+}
+
+.footerRight {
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.footerRight .contactInfo p {
+  margin-bottom: 0.5rem;
+}
+
+.footerRight .socialMedia h3 {
+  font-size: 1.2rem;
+  color: #ff6b6b;
+  margin-bottom: 1rem;
+}
+
+.socialMedia ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialMedia li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.socialMedia li a:hover {
+  text-decoration: underline;
+}
+
+.footerBottom {
+  font-size: 0.8rem;
+  color: #aaa;
+  margin-top: 1rem;
+}

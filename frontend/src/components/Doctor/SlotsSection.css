@@ -1,0 +1,57 @@
+
+.available-slots-section {
+  margin-top: 20px;
+}
+
+.slots-heading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.available-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.slot-button {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #d9d9d9;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.slot-button:hover {
+  background-color: #f0f0f0;
+  border-color: #b3b3b3;
+}
+
+.slot-button.selected {
+  background-color: #de1851;
+  color: #fff;
+  border-color: #de1851;
+}
+
+.date-picker-section {
+  margin-bottom: 20px;
+}
+
+.date-picker-label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.date-picker-input {
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 100%;
+  max-width: 300px;
+}

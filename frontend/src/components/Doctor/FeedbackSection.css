@@ -1,0 +1,60 @@
+.feedback-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feedback-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .user-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .commentor-name {
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .review-text {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .feedback-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .reply-button {
+    background-color: transparent;
+    color: #de1851;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+  }
+  
+  .reply-button:hover {
+    color: #cf3b65;
+  }
+  

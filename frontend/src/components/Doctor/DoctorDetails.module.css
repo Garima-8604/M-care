@@ -1,0 +1,58 @@
+
+/* DoctorDetails.module.css */
+.doctorDetails {
+  display: flex;
+  gap: 90px; /* Space between the image and details */
+  align-items: flex-start;
+  justify-content: space-between; /* Space between doctor details and button */
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctorImage {
+  width: 150px; /* Set width to a fixed value */
+  height: 150px; /* Set height to the same value to create a square */
+  object-fit: cover; /* Ensure the image fits within the square box */
+  border-radius: 8px; /* Optional: Adds rounded corners to the image */
+}
+
+.doctorInfo {
+  display: flex;
+  flex-direction: column; /* Stack the details vertically */
+}
+
+.doctorInfo h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.doctorInfo p {
+  margin: 4px 0;
+  font-size: 14px; /* Slightly smaller text for the details */
+}
+
+.visited {
+  color: #DE1B51;
+  font-weight: bold;
+}
+
+.paymentButton {
+  background-color: #DE1B51;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: auto; /* Push the button to the right */
+  margin-top: 15px; /* Adds spacing above the button */
+}
+
+.paymentButton:hover {
+  background-color: #db3c69;
+}

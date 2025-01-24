@@ -1,0 +1,179 @@
+/* Global styling for the container */
+.signupContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeef2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    gap: 0px;
+
+
+  }
+  
+  /* Header: Logo and Title */
+  .signupHeaderContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .signupLogoHeader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .signupTitleHeader {
+    font-family: "Jim Nightshade", cursive;
+    color: #DE1B51;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Sign-in Box */
+  .signupBox {
+    background: white;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form Header */
+  .signupHeader {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form Elements */
+  .signupForm {
+    margin-top: 10px;
+    margin-bottom: 20px;
+   
+  }
+  
+  .signupLabel {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .signupInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e91e63;
+    border-radius: 5px;
+  }
+  
+  .signupInput:focus {
+    outline: none;
+    border-color: #d81b60;
+    box-shadow: 0px 0px 4px #d81b60;
+  }
+  
+  /* Sign-in Button */
+  .signupButton {
+    width: 100%;
+    padding: 12px;
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .signupButton:hover {
+    background-color: #d81b60;
+  }
+  
+  /* Footer: Create Account Link */
+  .signupFooter {
+    margin-bottom: 20px;
+  }
+  
+  .createAccountLink {
+    padding: 10px;
+    color: #e91e63;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .createAccountLink:hover {
+    text-decoration: underline;
+  }
+  
+  .orDivider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .orDivider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #d9d9d9;
+  }
+  
+  /* Google Sign-in Button */
+  .signupGoogleButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .signupGoogleButton:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signupGoogleLogo {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Terms and Privacy Policy */
+  .termsText {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .termsLink,
+  .privacyLink {
+    color: #e91e63;
+    text-decoration: none;
+  }
+  
+  .termsLink:hover,
+  .privacyLink:hover {
+    text-decoration: underline;
+  }
+  

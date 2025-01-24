@@ -1,0 +1,110 @@
+/* Main section container */
+.scroll-section {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+    position: relative; /* Ensure proper positioning for the absolute arrow button */
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%; /* Ensure it takes full width */
+    padding-top: 10px; /* Space for "Specialist" text at the top */
+    margin-bottom: 10px; /* Reduced space between the first and second scroller */
+}
+
+/* Add space between the first and second sections */
+.scroll-section + .scroll-section {
+    margin-top: 0px; /* Reduced space between the first and second scroller */
+}
+
+/* Specialist text styling */
+.specialist-text {
+    font-size: 35px; /* Set font size */
+    font-family: 'Domine', serif; /* Use Domine font */
+    font-weight: bold; /* Bold text */
+    color: black; /* Black color */
+    z-index: 1; /* Ensure the text is above other elements */
+    margin-bottom: 20px; /* Add space between the "Specialist" text and the scroll container */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* Container for scrollable images */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    width: calc(100% - 50px);
+    padding: 10px 0;
+    gap: 200px; /* Space between images */
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    width: 200px;
+    height: 250px; /* Increase the height to allow space for the text */
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align the content at the top */
+    text-align: center;
+    position: relative; /* Set relative positioning for the text */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    
+}
+
+.scroll-item img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover;
+    border: 1px solid #DE1B51; /* Add a border to help see the image outline */
+}
+
+/* Image text (below the image) */
+.image-text {
+    font-size: 28px; /* Set font size */
+    font-family: 'Outfit', sans-serif; /* Use Outfit font */
+    color: #333; /* Text color */
+    margin-top: 10px; /* Space between image and text */
+    text-align: center; /* Center the text below the image */
+}
+
+/* Scroll arrow button */
+.scroll-arrow {
+    position: absolute;
+    top: 60%; /* Align vertically with the center of the images */
+    right: 20px;
+    transform: translateY(-50%); /* Offset by 50% of its height to center it */
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Chevron icon inside the button */
+.scroll-arrow .chevron-icon {
+    font-size: 60px;
+    color: #DE1B51;
+    transition: color 0.3s;
+}
+
+.scroll-arrow:hover .chevron-icon {
+    color: #a1123a;
+}
+
+
+
+/* Ensure the second button (scroll arrow) is visible */
+.scroll-section .scroll-arrow {
+    right: 20px;
+    top: 60%;
+    z-index: 10;
+}

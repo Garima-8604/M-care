@@ -1,0 +1,55 @@
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  /* margin-top: 80px; */
+  gap: 2rem;
+  background-color: #F6F8FC;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height: auto;
+    
+}
+
+.leftPanel {
+  flex: 1;
+  text-align: center;
+}
+
+.leftImage {
+  width: 80%;
+  border-radius: 10px;
+}
+.slogan {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #DE1B51;
+  font-style: italic;
+}
+
+.rightPanel {
+  flex: 1;
+}
+
+.rightPanel h1 {
+  font-size: 5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.ctaButton {
+  background-color: #DE1B51;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+}
+.ctaButton:hover {
+  background-color: #f34d7c;
+}

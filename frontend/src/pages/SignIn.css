@@ -1,0 +1,175 @@
+/* Global styling for the container */
+.signin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffeef2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+  }
+  
+  /* Header: Logo and Title */
+  .signin-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .signin-logo-header {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  
+  .signin-title-header {
+    font-family: "Jim Nightshade", cursive;
+    color: #DE1B51;
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  /* Sign-in Box */
+  .signin-box {
+    background: white;
+    padding: 30px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Form Header */
+  .signin-header {
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Form Elements */
+  .signin-form {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .signin-label {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .signin-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #DE1B51;
+    border-radius: 5px;
+  }
+  
+  .signin-input:focus {
+    outline: none;
+    border-color: #DE1B51;
+    box-shadow: 0px 0px 4px #DE1B51;
+  }
+  
+  /* Sign-in Button */
+  .signin-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #DE1B51;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 15px;
+  }
+  
+  .signin-button:hover {
+    background-color: #cd5656;
+  }
+  
+  /* Footer: Create Account Link */
+  .signin-footer {
+    margin-bottom: 20px;
+  }
+  
+  .create-account-link {
+    padding: 10px;
+    color: #DE1B51;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .create-account-link:hover {
+    text-decoration: underline;
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #777;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .or-divider .line {
+    flex: 1;
+    height: 1px;
+    background-color: #d9d9d9;
+  }
+  
+  /* Google Sign-in Button */
+  .signin-google-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .signin-google-button:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .signin-google-logo {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Terms and Privacy Policy */
+  .terms-text {
+    font-size: 12px;
+    color: #777;
+  }
+  
+  .terms-link,
+  .privacy-link {
+    color: #DE1B51;
+    text-decoration: none;
+  }
+  
+  .terms-link:hover,
+  .privacy-link:hover {
+    text-decoration: underline;
+  }
+  

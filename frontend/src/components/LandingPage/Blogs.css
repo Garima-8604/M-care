@@ -1,0 +1,70 @@
+.blogs-section {
+    padding: 20px;
+    background-color: #fdf7f8; /* Light background for consistency */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  
+  .blogs-header {
+    font-size: 24px;
+    color: #e91e63;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    flex: 1 1 220px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .card-content {
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .actions {
+    margin-top: 15px;
+  }
+  
+  .favorite {
+    cursor: pointer;
+    color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .favorite.liked {
+    color: #e91e63;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #e91e63;
+    font-size: 14px;
+  }
+  
+  .arrow-icon {
+    margin-left: 5px;
+  }
+  

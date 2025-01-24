@@ -1,0 +1,127 @@
+
+.appointmentDetailsContainer {
+  max-width: 960px;
+  margin: 10px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.appointmentDetailsHeader {
+  font-size: 24px;
+  font-weight: 700;
+  color: #d21f3c;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.appointmentDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.appointmentSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+label {
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+/* Custom Styles for the Calendar */
+.reactCalendar {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.reactCalendarNavigationButton {
+  color: #d21f3c;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.reactCalendarTile {
+  text-align: center;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 14px;
+  color: #333; /* Ensure general tile text is visible */
+}
+
+.reactCalendarTile:hover {
+  background-color: #f3f3f3;
+}
+
+.reactCalendarTileActive {
+  background-color: #d21f3c;
+  color: #fff;
+}
+
+.reactCalendarTileNow {
+  background-color: #fce4ec;
+  color: #d21f3c; /* Keep this color for visibility */
+  font-weight: bold;
+}
+
+/* Time Slots */
+.slots {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slot {
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.slotSelected {
+  background-color: #d21f3c;
+  color: #fff;
+  border-color: #d21f3c;
+}
+
+.slot:hover {
+  background-color: #f3f3f3;
+}
+
+/* Selected Info Form */
+.selectedInfoForm {
+  margin-top: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.selectedInfoForm p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Dropdown */
+.specialityDropdown {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #fff;
+  cursor: pointer;
+}

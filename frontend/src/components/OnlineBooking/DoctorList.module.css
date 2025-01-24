@@ -1,0 +1,124 @@
+.doctor-list {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 16px;
+  }
+  
+  .doctor-card {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-bottom: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .doctor-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .doctor-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .doctor-info h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .doctor-info p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  
+  .qualification {
+    font-style: italic;
+    color: #555;
+  }
+  
+  .appointment-details,
+  .rating,
+  .fees {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .appointment-details h4,
+  .rating h4,
+  .fees h4 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+  }
+  
+  .appointment-details .availability {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  .appointment-details .availability .badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 4px;
+  }
+  
+  .badge.online {
+    background-color: #4caf50;
+  }
+  
+  .badge.offline {
+    background-color: #2196f3;
+  }
+  
+  .rating p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .rating .star {
+    color: gold;
+    font-size: 18px;
+    margin-right: 4px;
+  }
+  
+  .fees p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .book-now {
+    background-color: #f05454;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-now:hover {
+    background-color: #d84343;
+  }
+  
