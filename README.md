@@ -106,8 +106,6 @@ To integrate Google Maps and OAuth2.0 in the M-CARE project, you'll need to crea
    - Add the API Key to .env files as said above for Google Maps integration. Be sure to keep the key secure and restrict its usage to your domain in the Google Cloud Console.
 
 ---
-
-This should provide clear instructions on setting up Google Cloud credentials and linking them to your project.
 ### Frontend:
 - **React**: Frontend library
 
