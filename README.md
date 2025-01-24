@@ -13,7 +13,7 @@ Before you begin, ensure you have the following installed:
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/Garima-8604/M-care
 cd M-CARE
 ```
 
@@ -32,15 +32,20 @@ cd M-CARE
    ```
    Add the following environment variables:
    ```env
-   PORT=5000
-   DATABASE_URL=mongodb://localhost:27017/mcare
-   GOOGLE_CLIENT_ID=<your-google-client-id>
-   GOOGLE_CLIENT_SECRET=<your-google-client-secret>
+GOOGLE_API_KEY=<your-google-api-key>
+CLIENT_ID=<your-client-id>
+CLIENT_SECRET=<your-client-secret>
+REDIRECT_URI='http://localhost:3000'
+GOOGLE_CLIENT_ID = <your-google-client-id>
+MONGO_URI = <your-mongodb-connection-uri>
+RAZORPAY_KEY_ID = <your-razorpay-key-id>
+RAZORPAY_KEY_SECRET = <your-razorpay-key-secret>
+
    ```
 
 4. Start the backend server:
    ```bash
-   npm start
+   node proxy.js
    ```
 
 ### Frontend Setup
@@ -58,8 +63,8 @@ cd M-CARE
    ```
    Add the following environment variable:
    ```env
-   REACT_APP_API_URL=http://localhost:5000
-   GOOGLE_CLIENT_ID=<your-google-client-id>
+   REACT_APP_GOOGLE_GEOCODE_API_KEY=<your-google-geocode-api-key>
+   REACT_APP_GOOGLE_PLACES_API_KEY=<your-google-places-api-key>
    ```
 
 4. Start the frontend development server:
@@ -73,16 +78,12 @@ cd M-CARE
 
 1. Open the backend server at `http://localhost:5000`.
 2. Open the frontend in your browser at `http://localhost:3000`.
-3. [Add any specific steps for logging in, using features, or navigating the app.]
-
 ---
 
 ## Key Dependencies
 
 ### Frontend:
 - **React**: Frontend library
-- **react-google-calendar-api**: Google Calendar integration
-- **react-calendar**: Calendar component
 
 ### Backend:
 - **Node.js**: JavaScript runtime
@@ -91,44 +92,3 @@ cd M-CARE
 - **dotenv**: Environment variable management
 
 ---
-
-## Future Enhancements
-
-- [Planned Feature 1, e.g., "Add notifications"]
-- [Planned Feature 2, e.g., "Mobile app support"]
-
----
-
-## Contributing
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
-
-1. Fork the project
-2. Create a feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
-
----
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Contact
-
-For questions or support, reach out to:
-
-- **Name**: Garima  
-- **Email**: [Your Email Here]  
-- **GitHub**: [Your GitHub Profile Link Here]
-```
-
-### Customization
-- Replace `<repository-url>` with your GitHub repository URL.
-- Replace `<your-google-client-id>` and `<your-google-client-secret>` with placeholders or instructions on where to get these values.
-- Add additional features or planned enhancements as needed.
-
-Let me know if you want further changes!
