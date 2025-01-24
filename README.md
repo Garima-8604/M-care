@@ -1,3 +1,9 @@
+### About
+
+
+You can check out a live demonstration of the website in action here: [Website Demonstration Video](https://youtu.be/sdsgl7wrJeg).
+
+---
 
 ## Prerequisites
 
