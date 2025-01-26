@@ -5,6 +5,16 @@ You can check out a live demonstration of the website in action here: [Website D
 
 ---
 
+## Features
+
+- A Network of Healthcare Hubs: The aim is to establish a network of healthcare hubs strategically positioned in towns and villages. These hubs will be equipped with essential diagnostic tools, laboratory Services, and trained staff. It allows patients to book appointments from a list of available consultants.
+
+- Online Appointment Booking: Enables real-time connection with doctors and pregnancy experts. It allows users to select the desired date, time, and domain to book the appointments. 
+
+- Community Guidance Feature: Engages users in constructive learning to improve maternal health outcomes with the help of short videos, articles, and blogs about nutrition, exercise, mental stress relief and natal growth.
+
+---
+  
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
